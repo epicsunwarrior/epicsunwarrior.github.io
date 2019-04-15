@@ -1,0 +1,52 @@
+.logo {
+	font-size: 30px;
+    padding-left: 85px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #420559;
+	text-decoration-color: white;
+    color: white;
+}
+
+.purple { 
+    background-color: purple;
+    color: white;
+    padding: 25px;
+}
+
+.focus-container {
+    margin: 30px;
+	margin-left: 85px;
+	margin-right: 85px;
+}
+
+.focus-box {
+	display: flex;
+	justify-content: space-around; 
+	padding: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: solid;
+	border-color: purple;
+}
+
+.focus-box-text {
+	width: 650px;
+}
+
+li, p { 
+	font-size: 20px;
+}
+
+.bold-item {
+	font-weight: bold;
+}
+
+.contact-us-block {
+    text-align: center;   
+}
+
+.underline {
+	text-decoration: underline;
+	text-decoration-color: purple;
+}
