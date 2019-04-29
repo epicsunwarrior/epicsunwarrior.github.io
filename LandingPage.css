@@ -1,23 +1,43 @@
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+.smaller-p { 
+	font-size: 1.35rem;
+}
+
+.itemDescription {
+	font-size: 1.1rem;
+}
+
 .logo {
-	font-size: 30px;
-    background-color: #420559;
+	font-size: 2rem;
+	background-color: #602040;
 	text-decoration-color: white;
-    color: white;
+	color: white;
 }
 
 .purple { 
-    background-color: purple;
-    color: white;
-    font-size: 50px;
+	background-color: #993366;
+	color: white;
+	font-size: 2.3rem;
+	opacity: .95;
+}
+
+.headerImage {
+	background-image: url("./imgs/header-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .focus-box {
-	border: solid;
-	border-color: purple;
-}
-
-li, p { 
-	font-size: 20px;
+	background-color: #f9ecf2;
 }
 
 .bold-item {
@@ -25,16 +45,10 @@ li, p {
 }
 
 .contact-us-block {
-    text-align: center;   
+	text-align: center;   
 }
 
 .underline {
 	text-decoration: underline;
-	text-decoration-color: purple;
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+	text-decoration-color: #993366;
 }
