@@ -31,7 +31,7 @@ p {
 }
 
 .headerImage {
-	background-image: url("./imgs/header-1.jpg");
+	background-image: url("./imgs/header-2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -40,15 +40,6 @@ p {
 	background-color: #f9ecf2;
 }
 
-.bold-item {
-	font-weight: bold;
-}
-
 .contact-us-block {
 	text-align: center;   
-}
-
-.underline {
-	text-decoration: underline;
-	text-decoration-color: #993366;
 }
