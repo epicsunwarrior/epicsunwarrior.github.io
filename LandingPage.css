@@ -12,6 +12,10 @@ p {
 	font-size: 1.35rem;
 }
 
+.modal-p {
+	font-size: 1.1rem;
+}
+
 .itemDescription {
 	font-size: 1.1rem;
 }
@@ -31,7 +35,7 @@ p {
 }
 
 .headerImage {
-	background-image: url("./imgs/header-2.jpg");
+	background-image: url("./imgs/header.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -43,3 +47,43 @@ p {
 .contact-us-block {
 	text-align: center;   
 }
+
+.modal-mobile {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.modal-divider {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.modal-divider > span {
+    position: relative;
+    display: inline-block;
+}
+
+.modal-divider > span:before,
+.modal-divider > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #dee2e6;
+}
+
+.modal-divider > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.modal-divider > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
