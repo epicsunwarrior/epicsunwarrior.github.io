@@ -35,8 +35,18 @@ p {
 	opacity: .95;
 }
 
+.light-purple {
+	background-color: #f9ecf2;
+}
+
 .headerImage {
 	background-image: url("./imgs/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.signUpImage {
+	background-image: url("./imgs/signUp.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -47,6 +57,11 @@ p {
 
 .contact-us-block {
 	text-align: center;   
+}
+
+.force-right {
+	position: absolute;
+	right: 10px;
 }
 
 .modal-mobile {
@@ -88,3 +103,6 @@ p {
     margin-left: 15px;
 }
 
+.flowContainer {
+	height: 12rem;
+}
