@@ -106,3 +106,22 @@ p {
 .flowContainer {
 	height: 12rem;
 }
+
+.wrapper {
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 1em; /* Height of footer */
+  min-height: 100%;
+}
+
+header {
+  background-color: #cff;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+}
